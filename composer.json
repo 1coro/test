@@ -1,0 +1,8 @@
+{
+    "require": {
+        "nette/di": "^2.4",
+        "nette/bootstrap": "^2.4",
+        "nette/robot-loader": "^3.1",
+        "ublaboo/api-router": "^2.0"
+    }
+}
