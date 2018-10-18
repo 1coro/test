@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "127.0.0.1:8088:8088"
+    command: php -S 0.0.0.0:8088 -t www
+    depends_on:
+     - redis
+  redis:
+    image: "redis:alpine"
