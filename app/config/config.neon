@@ -1,6 +1,6 @@
 parameters:
     redis:
-        url: 127.0.0.1
+        url: redis
 
 application:
     mapping:
